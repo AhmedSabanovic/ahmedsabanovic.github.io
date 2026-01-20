@@ -17,7 +17,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: data science, visualization, machine learning, portfolio # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 💻 
+icon: 💻
 
 url: https://ahmedsabanovic.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
