@@ -61,7 +61,7 @@ layout: default
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
-        <!-- Table of contents plugin not supported on GitHub Pages -->
+        {% toc %}
       </div>
       <hr>
     {% endif %}
@@ -75,6 +75,10 @@ layout: default
   {% endif %}
 
   {% if page.related_publications %}
+    <h2>References</h2>
+    <div class="publications">
+      {% bibliography --group_by none --cited_in_order %}
+    </div>
   {% endif %}
 
   {% if site.related_blog_posts and site.related_blog_posts.enabled %}
