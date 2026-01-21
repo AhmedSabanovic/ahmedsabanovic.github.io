@@ -1,15 +1,16 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Data Science MSc student · Visualization · Machine Learning
+subtitle: PhD Student · Computational Sustainability · TU Wien
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Data Science MSc</p>
+    <p>PhD Student</p>
+    <p>Research Unit of Computational Sustainability</p>
     <p>TU Wien</p>
     <p>Vienna, Austria</p>
 
@@ -23,13 +24,14 @@ latest_posts:
   enabled: false
 ---
 
-I am a Data Science master’s student with a strong interest in **data visualization,
-machine learning, and multimodal systems**.
+I am a PhD student at **TU Wien** in the **Research Unit of Computational Sustainability**.
 
-My work focuses on transforming complex data into **clear, interactive, and
-insightful visual representations**, as well as exploring **energy-efficient
-approaches to modern machine learning models**. I enjoy working at the intersection
-of research and practical applications, especially when visualization plays a
-central role in understanding data.
+My research interests include **data visualization**, **multimodal learning**, and
+**energy-efficient machine learning**, with a focus on developing methods that make
+complex systems more interpretable, scalable, and sustainable.
+
+I have a strong background in data science and machine learning, and I enjoy working
+at the intersection of **research and applied systems**, particularly where visual
+analytics can support understanding and decision-making.
 
 Outside of academics, I enjoy cycling, playing basketball, and staying physically active.
