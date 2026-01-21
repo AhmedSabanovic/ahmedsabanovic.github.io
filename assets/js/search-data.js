@@ -444,9 +444,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-satellite-based-monitoring-of-livestock-in-the-alpine-region-virtual-shepherd",
+          title: 'Satellite-based Monitoring of Livestock in the Alpine Region (Virtual Shepherd)',
+          description: "Satellite-based monitoring and edge computing for sustainable livestock grazing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
