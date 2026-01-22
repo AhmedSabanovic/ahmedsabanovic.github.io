@@ -2,7 +2,7 @@
 layout: page
 title: Satellite-based Monitoring of Livestock in the Alpine Region (Virtual Shepherd)
 description: Satellite-based monitoring and edge computing for sustainable livestock grazing
-img: assets/img/projects/virtual-shepherd/header.jpg
+img: assets/img/projects/ffg/ffg.jpg
 importance: 1
 category: research
 related_publications: false
