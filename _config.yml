@@ -9,8 +9,7 @@ last_name: Sabanovic
 contact_note: >
   Email is the best way to reach me for academic or research-related inquiries.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD student in Computational Sustainability at TU Wien, with interests in
-  data visualization, multimodal learning, and energy-efficient machine learning.
+  PhD student at TU Wien, member of the Computational Sustainability Research Group, with research interests in data visualization, multimodal learning, and energy-efficient machine learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: computational sustainability, data visualization, multimodal learning, machine learning # add your own keywords or leave empty
