@@ -42,7 +42,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-master-s-degree-completed-data-science-at-tu-wien-i-ve-successfully-completed-my-master-s-degree-in-data-science-at-tu-wien-my-master-s-thesis-optimizing-energy-efficiency-in-multimodal-learning-for-automated-vehicle-damage-evaluation-focuses-on-improving-the-energy-efficiency-of-multimodal-machine-learning-systems-while-maintaining-strong-predictive-performance-thesis-view-pdf-advisor-univ-prof-dr-ivona-brandić",
+            },},{id: "news-master-s-degree-completed-data-science-at-tu-wien-i-ve-successfully-completed-my-master-s-degree-in-data-science-at-tu-wien-my-master-s-thesis-optimizing-energy-efficiency-in-multimodal-learning-for-automated-vehicle-damage-evaluation-focuses-on-improving-the-energy-efficiency-of-multimodal-machine-learning-systems-while-maintaining-strong-predictive-performance-university-tu-wien-thesis-view-pdf-advisor-univ-prof-dr-ivona-brandić",
           title: '🎓 Master’s Degree Completed – Data Science at TU Wien I’ve successfully completed...',
           description: "",
           section: "News",},{id: "projects-satellite-based-monitoring-of-livestock-in-the-alpine-region-virtual-shepherd",
