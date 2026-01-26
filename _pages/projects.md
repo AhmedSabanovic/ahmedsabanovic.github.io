@@ -1,12 +1,12 @@
 ---
 layout: page
-title: pProjects
+title: Projects
 permalink: /projects/
 description: Research projects and academic work
 nav: true
 nav_order: 3
 display_categories: [research, academic]
-horizontal:  false
+horizontal: false
 ---
 
 <!-- pages/projects.md -->
@@ -14,7 +14,7 @@ horizontal:  false
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=". #{{ category }}">
+  <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
@@ -24,7 +24,7 @@ horizontal:  false
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}
-      {% include projects_horizontal. liquid %}
+      {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
@@ -61,7 +61,5 @@ horizontal:  false
     {% endfor %}
     </div>
   {% endif %}
-{% endif %}
-</div>
 {% endif %}
 </div>
