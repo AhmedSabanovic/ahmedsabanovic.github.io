@@ -5,7 +5,6 @@ permalink: /projects/
 description: Research projects and academic work
 nav: true
 nav_order: 3
-display_categories: [research, academic]
 horizontal: false
 ---
 
