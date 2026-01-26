@@ -31,7 +31,8 @@ horizontal: false
               <img
                 src="{{ project.img | relative_url }}"
                 alt="{{ project.title }}"
-                class="img-fluid mb-3">
+                class="img-fluid mb-3 d-block mx-auto"
+                style="max-width: 350px;">
             {% endif %}
 
             {% if project.description %}
@@ -65,7 +66,8 @@ horizontal: false
             <img
               src="{{ project.img | relative_url }}"
               alt="{{ project.title }}"
-              class="img-fluid mb-3">
+              class="img-fluid mb-3 d-block mx-auto"
+              style="max-width: 350px;">
           {% endif %}
 
           {% if project.description %}
