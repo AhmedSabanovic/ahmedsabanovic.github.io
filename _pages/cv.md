@@ -27,7 +27,7 @@ International University of Sarajevo (IUS), Sarajevo, Bosnia and Herzegovina
 ### Student Research Assistant  
 **Research Unit of Computational Sustainability, TU Wien**  
 Vienna, Austria  
-*October 2025 – Present*
+*10/2025 – Present*
 
 - Student staff member supporting research in computational sustainability
 - Contributing to data analysis, modeling, and research-oriented software development
@@ -37,7 +37,7 @@ Vienna, Austria
 ### Data Analytics Intern  
 **Social Explorer**  
 Sarajevo, Bosnia and Herzegovina  
-*October 2021 – June 2023*
+*10/2021 – 06/2023*
 
 - Ensured data accuracy through rigorous validation and quality checks
 - Optimized database structures to improve performance and scalability
@@ -47,7 +47,7 @@ Sarajevo, Bosnia and Herzegovina
 
 ### Translator (Freelance)  
 Sarajevo, Bosnia and Herzegovina  
-*June 2018 – September 2019*
+*06/2018 – 09/2019*
 
 - Provided professional simultaneous translation services from **English to Bosnian**
 - Worked with diverse clients under time-sensitive conditions
