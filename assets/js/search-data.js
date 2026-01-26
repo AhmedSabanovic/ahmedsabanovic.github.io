@@ -42,8 +42,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-completed-my-master-s-degree-in-data-science-at-tu-wien",
-          title: 'Completed my Master’s degree in Data Science at TU Wien! 🎓',
+            },},{id: "news-master-s-degree-completed-data-science-at-tu-wien-i-ve-successfully-completed-my-master-s-degree-in-data-science-at-tu-wien-vienna-university-of-technology-my-master-s-thesis-optimizing-energy-efficiency-in-multimodal-learning-for-automated-vehicle-damage-evaluation-focuses-on-improving-the-energy-efficiency-of-multimodal-machine-learning-systems-while-maintaining-strong-predictive-performance-university-https-www-tuwien-at-thesis-https-repositum-tuwien-at-bitstream-20-500-12708-224554-1-sabanovic-20ahmed-20-202025-20-20optimizing-20energy-20efficiency-20in-20multimodal-20learning-20for-pdf-advisor-univ-prof-dr-ivona-brandić-https-www-ec-tuwien-ac-at-ivona",
+          title: '🎓 Master’s Degree Completed – Data Science at TU Wien I’ve successfully completed...',
           description: "",
           section: "News",},{id: "projects-satellite-based-monitoring-of-livestock-in-the-alpine-region-virtual-shepherd",
           title: 'Satellite-based Monitoring of Livestock in the Alpine Region (Virtual Shepherd)',
