@@ -9,16 +9,16 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>PhD Student</p>
-    <p>Research Unit of Computational Sustainability</p>
-    <p>TU Wien</p>
-    <p>Vienna, Austria</p>
+    <p>Room HE 02 20</p>
+    <p>Favoritenstraße 9-11</p>
+    <p>1040 Vienna, Austria</p>
 
 selected_papers: false
 social: true
 
 announcements:
-  enabled: false
+  enabled: true
+  limit: 5 
 
 latest_posts:
   enabled: false
