@@ -35,19 +35,213 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba($teal-color, 0.18);
+    transition:
+      box-shadow 0.3s ease,
+      transform 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 8px 32px rgba($teal-color, 0.28);
+      transform: translateY(-2px);
+    }
+  }
+
+  .more-info {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    line-height: 1.6;
   }
 }
 
-// TODO: redefine content layout.
+// Post / About page headings
+.post-header .post-title {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+// Section headings with teal accent underline
+.post article h2 {
+  position: relative;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 2.5rem;
+    height: 3px;
+    background: var(--global-theme-color);
+    border-radius: 2px;
+    margin-top: 0.35rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+// Research interest / skill tags
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem;
+
+  .tag {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: var(--global-tag-bg-color, #{rgba($teal-color, 0.1)});
+    color: var(--global-tag-text-color, #{$teal-color-dark});
+    border: 1px solid rgba($teal-color, 0.25);
+    transition:
+      background-color 0.2s ease,
+      color 0.2s ease,
+      border-color 0.2s ease;
+    text-decoration: none;
+
+    &:hover {
+      background-color: var(--global-theme-color);
+      color: $white-color;
+      border-color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+// Skills row
+.skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0 1.5rem;
+
+  .skill-badge {
+    display: inline-block;
+    padding: 0.2rem 0.65rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: var(--global-card-bg-color);
+    color: var(--global-text-color);
+    border: 1px solid var(--global-divider-color);
+    letter-spacing: 0.02em;
+  }
+}
+
+// News table improvements
+.news {
+  table {
+    th {
+      color: var(--global-theme-color);
+      font-weight: 600;
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+
+    td {
+      font-size: 0.92rem;
+    }
+  }
+}
+
+// Social contact icons spacing
+.social {
+  margin-top: 1.5rem;
+
+  .contact-icons {
+    font-size: 1.4rem;
+
+    a {
+      transition:
+        color 0.2s ease,
+        transform 0.2s ease;
+      display: inline-block;
+
+      &:hover {
+        color: var(--global-hover-color);
+        transform: translateY(-2px);
+        text-decoration: none;
+      }
+    }
+  }
+
+  .contact-note {
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
+}
+
+/******************************************************************************
+ * Navbar
+ ******************************************************************************/
+
+.navbar {
+  box-shadow: 0 1px 0 var(--global-divider-color);
+  transition: box-shadow 0.2s ease;
+
+  .nav-link {
+    font-size: 0.92rem;
+    letter-spacing: 0.01em;
+    transition: color 0.2s ease;
+  }
+
+  .nav-item.active .nav-link {
+    font-weight: 600;
+    color: var(--global-theme-color) !important;
+  }
+}
 
 /******************************************************************************
  * Publications
  ******************************************************************************/
 
-// TODO: redefine publications layout.
+.publications {
+  h2.year {
+    color: var(--global-text-color-light);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid var(--global-divider-color);
+  }
+
+  .abbr {
+    abbr {
+      background-color: var(--global-theme-color);
+    }
+  }
+}
 
 /*****************************************************************************
 * Projects
 *****************************************************************************/
 
-// TODO: redefine projects layout.
+.projects {
+  article.project-full {
+    border-left: 3px solid var(--global-theme-color);
+    padding-left: 1.2rem;
+    transition: border-color 0.2s ease;
+
+    &:hover {
+      border-color: var(--global-hover-color);
+    }
+
+    h3 {
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .text-muted {
+      font-style: italic;
+    }
+  }
+}

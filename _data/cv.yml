@@ -66,3 +66,53 @@
         - Multimodal learning
         - Deep learning
         - Data visualization
+
+- title: Skills
+  type: list_groups
+  contents:
+    - category: Programming Languages
+      icon: fa-solid fa-code
+      items:
+        - name: Python
+          level: Advanced
+        - name: SQL
+          level: Advanced
+        - name: R
+          level: Intermediate
+        - name: Java
+          level: Intermediate
+    - category: ML / Data Science
+      icon: fa-solid fa-brain
+      items:
+        - name: PyTorch
+          level: Advanced
+        - name: scikit-learn
+          level: Advanced
+        - name: Pandas / NumPy
+          level: Advanced
+        - name: Matplotlib / Plotly
+          level: Intermediate
+    - category: Tools & Platforms
+      icon: fa-solid fa-wrench
+      items:
+        - name: Git
+          level: Advanced
+        - name: Docker
+          level: Intermediate
+        - name: Linux
+          level: Intermediate
+        - name: Jupyter
+          level: Advanced
+
+- title: Languages
+  type: list_groups
+  contents:
+    - category: Human Languages
+      icon: fa-solid fa-language
+      items:
+        - name: Bosnian
+          level: Native
+        - name: English
+          level: Fluent
+        - name: German
+          level: Intermediate

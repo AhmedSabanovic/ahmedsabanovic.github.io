@@ -95,7 +95,6 @@ blog_name: ""
 blog_description: ""
 pager_in_search: false
 
-
 # Pagination
 pagination:
   enabled: false
@@ -267,8 +266,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Sabanovic]
+  first_name: [Ahmed, A.]
 
   style: apa
   locale: en
