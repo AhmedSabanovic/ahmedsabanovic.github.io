@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -18,7 +18,7 @@ social: true
 
 announcements:
   enabled: true
-  limit: 5 
+  limit: 5
 
 latest_posts:
   enabled: false

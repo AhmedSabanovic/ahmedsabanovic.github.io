@@ -95,7 +95,6 @@ blog_name: ""
 blog_description: ""
 pager_in_search: false
 
-
 # Pagination
 pagination:
   enabled: false

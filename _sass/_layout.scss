@@ -37,7 +37,9 @@ body.sticky-bottom-footer {
     width: 100%;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba($teal-color, 0.18);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transition:
+      box-shadow 0.3s ease,
+      transform 0.3s ease;
 
     &:hover {
       box-shadow: 0 8px 32px rgba($teal-color, 0.28);
@@ -96,7 +98,10 @@ body.sticky-bottom-footer {
     background-color: var(--global-tag-bg-color, #{rgba($teal-color, 0.1)});
     color: var(--global-tag-text-color, #{$teal-color-dark});
     border: 1px solid rgba($teal-color, 0.25);
-    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    transition:
+      background-color 0.2s ease,
+      color 0.2s ease,
+      border-color 0.2s ease;
     text-decoration: none;
 
     &:hover {
@@ -152,7 +157,9 @@ body.sticky-bottom-footer {
     font-size: 1.4rem;
 
     a {
-      transition: color 0.2s ease, transform 0.2s ease;
+      transition:
+        color 0.2s ease,
+        transform 0.2s ease;
       display: inline-block;
 
       &:hover {

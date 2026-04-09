@@ -12,9 +12,9 @@ horizontal: false
 
 {% if site.enable_project_categories and page.display_categories %}
 
-  {% for category in page.display_categories %}
-    <a id="{{ category }}"></a>
-    <h2 class="category">{{ category | capitalize }}</h2>
+{% for category in page.display_categories %}
+<a id="{{ category }}"></a>
+<h2 class="category">{{ category | capitalize }}</h2>
 
     {% assign categorized_projects = site.projects | where: "category", category %}
     {% assign sorted_projects = categorized_projects | sort: "importance" %}
@@ -48,11 +48,11 @@ horizontal: false
       {% endfor %}
     </div>
 
-  {% endfor %}
+{% endfor %}
 
 {% else %}
 
-  {% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_projects = site.projects | sort: "importance" %}
 
   <div class="row row-cols-1">
     {% for project in sorted_projects %}
@@ -81,6 +81,7 @@ horizontal: false
         <hr>
       </div>
     {% endfor %}
+
   </div>
 
 {% endif %}
