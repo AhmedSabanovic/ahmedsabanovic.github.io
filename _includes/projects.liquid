@@ -6,14 +6,7 @@
         {% if project.img_fit == "contain" %}
           {% assign img_class = img_class | append: " card-img-contain" %}
         {% endif %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class=img_class
-        %}
+        {% include figure.liquid loading="eager" path=project.img sizes="250px" alt="project thumbnail" class=img_class %}
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
