@@ -24,8 +24,6 @@ latest_posts:
   enabled: false
 ---
 
-<h1>Ahmed Šabanović</h1>
-
 I am a PhD student at [**TU Wien**](https://www.tuwien.at) in the **Research Unit of Computational Sustainability**.
 
 My research interests include **data visualization**, **multimodal learning**, and
