@@ -17,6 +17,13 @@ $(document).ready(function () {
   });
   $("a").removeClass("waves-effect waves-light");
 
+  // close the mobile navbar after selecting an item
+  $(".navbar-collapse .nav-link, .navbar-collapse .dropdown-item").on("click", function () {
+    if ($(".navbar-toggler").is(":visible")) {
+      $(".navbar-collapse").collapse("hide");
+    }
+  });
+
   // bootstrap-toc
   if ($("#toc-sidebar").length) {
     // remove related publications years from the TOC
