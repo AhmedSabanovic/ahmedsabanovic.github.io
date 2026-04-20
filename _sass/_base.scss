@@ -23,6 +23,13 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+img,
+svg,
+video,
+iframe {
+  max-width: 100%;
+}
+
 table {
   td,
   th {
@@ -1246,13 +1253,6 @@ nav[data-toggle="toc"] {
     font-size: 0.875rem;
     padding: 2px 4px;
   }
-}
-
-img,
-svg,
-video,
-iframe {
-  max-width: 100%;
 }
 
 /* Extra small screens */
