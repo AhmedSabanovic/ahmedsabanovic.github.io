@@ -50,6 +50,11 @@ ninja.data = [{
           description: "Satellite-based monitoring and edge computing for sustainable livestock grazing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
+            },},{id: "projects-themis",
+          title: 'Themis',
+          description: "Geographically distributed probabilistic operating systems for edge-native code offloading",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project.html";
             },},{
         id: 'social-email',
         title: 'email',
