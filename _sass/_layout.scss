@@ -135,8 +135,12 @@ body.sticky-bottom-footer {
 
 // News table improvements
 .news {
+  --news-date-min-width: 7rem;
+  --news-date-preferred-width: 18vw;
+  --news-date-max-width: 10rem;
+
   .news-table-container-scrollable {
-    max-height: min(32rem, 60vh);
+    max-height: 60vw;
   }
 
   table {
@@ -150,7 +154,7 @@ body.sticky-bottom-footer {
     }
 
     .news-date {
-      width: clamp(7rem, 18vw, 10rem);
+      width: clamp(var(--news-date-min-width), var(--news-date-preferred-width), var(--news-date-max-width));
       white-space: nowrap;
       vertical-align: top;
     }

@@ -17,6 +17,7 @@ horizontal: false
         <a id="{{ category }}"></a>
         <h2 class="category">{{ category | capitalize }}</h2>
         <div class="row row-cols-1 row-cols-md-2">
+          {% comment %} Each entry renders a reusable project card via _includes/projects.liquid. {% endcomment %}
           {% for project in categorized_projects %}
             {% include projects.liquid %}
           {% endfor %}
@@ -25,6 +26,7 @@ horizontal: false
     {% endfor %}
   {% else %}
     <div class="row row-cols-1 row-cols-md-2">
+      {% comment %} Each entry renders a reusable project card via _includes/projects.liquid. {% endcomment %}
       {% for project in sorted_projects %}
         {% include projects.liquid %}
       {% endfor %}
