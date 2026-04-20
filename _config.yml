@@ -5,7 +5,7 @@
 title: "" # the website title (if blank, full name will be used instead)
 first_name: Ahmed
 middle_name:
-last_name: Sabanovic
+last_name: Šabanović
 contact_note: >
   Email is the best way to reach me for academic or research-related inquiries.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -266,7 +266,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Sabanovic]
+  last_name: [Šabanović]
   first_name: [Ahmed, A.]
 
   style: apa
