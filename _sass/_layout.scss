@@ -262,6 +262,10 @@ body.sticky-bottom-footer {
     object-fit: cover;
   }
 
+  .card .card-img-top.card-img-contain {
+    object-fit: contain;
+  }
+
   article.project-full {
     border-left: 3px solid var(--global-theme-color);
     padding-left: 1.2rem;

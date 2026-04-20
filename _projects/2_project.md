@@ -3,6 +3,7 @@ layout: page
 title: Themis
 description: Geographically distributed probabilistic operating systems for edge-native code offloading
 img: assets/img/themis-fwf-logo.png
+img_fit: contain
 importance: 2
 category: research
 related_publications: false
