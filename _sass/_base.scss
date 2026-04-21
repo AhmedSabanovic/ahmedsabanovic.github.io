@@ -266,7 +266,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   &:focus-visible {
-    outline: 2px solid var(--global-theme-color);
+    outline: 2px solid var(--global-text-color);
     outline-offset: 2px;
   }
 }
