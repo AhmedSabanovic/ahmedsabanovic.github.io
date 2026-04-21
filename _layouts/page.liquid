@@ -10,6 +10,12 @@ layout: default
 
 <div class="post">
   <header class="post-header">
+    {% if page.collection == 'projects' %}
+      <a class="project-back-link" href="{{ '/projects/' | relative_url }}" aria-label="Back to projects">
+        <i class="fa-solid fa-arrow-left-long" aria-hidden="true"></i>
+        <span>Back to Projects</span>
+      </a>
+    {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-description">{{ page.description }}</p>
   </header>
