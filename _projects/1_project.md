@@ -23,9 +23,7 @@ while reducing conflicts between hikers and livestock and improving animal welfa
 
 - **Funding Programme:** FFG Austrian Space Applications Programme (ASAP) 2022
 - **Project Duration:** 2023 – 2025
-- **Project Link:**  
-  https://projekte.ffg.at/projekt/5122077
-
+- **Project Link:** [FFG Project Page](https://projekte.ffg.at/projekt/5122077)
 - **Project Coordinator:** Johannes Scholz
 - **Co-Principal Investigator:** Ivona Brandić
 
