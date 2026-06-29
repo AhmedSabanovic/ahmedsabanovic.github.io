@@ -53,6 +53,13 @@
         - Provided professional simultaneous translation services from English to Bosnian
         - Worked with diverse clients under time-sensitive conditions
 
+- title: Conference Presentations
+  type: time_table
+  contents:
+    - title: "INAR-VL: Input-Aware Routing for Edge–Cloud Vision–Language Inference"
+      institution: EdgeSys Workshop, co-located with MobiSys 2026, Cambridge, UK
+      year: June 2026
+
 - title: Research Interests
   type: nested_list
   contents:
