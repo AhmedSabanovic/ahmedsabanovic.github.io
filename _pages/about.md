@@ -35,6 +35,11 @@ at the intersection of **research and applied systems**, particularly where visu
 analytics can support understanding and decision-making.
 
 Outside of academics, I enjoy cycling, playing basketball, and staying physically active.
+---
+
+**Supervision**
+
+My PhD advisor is [**Prof. Ivona Brandić**](https://www.tuwien.at/en/tu-wien/organisation/central-divisions/professorships-at-tu-wien/new-professors-since-2019/new-professors-by-alphabetical-order/b/univprof-magrersocoec-drrersocoec-ivona-brandic).
 
 ---
 
