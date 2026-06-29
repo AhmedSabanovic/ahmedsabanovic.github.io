@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: My academic publications and research outputs
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 {% include bib_search.liquid %}
