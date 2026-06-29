@@ -7,7 +7,7 @@ subtitle: PhD Candidate | Making AI Sustainable & Interpretable
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
   more_info: >
     <p>Room HE 02 20</p>
     <p>Favoritenstraße 9-11</p>
