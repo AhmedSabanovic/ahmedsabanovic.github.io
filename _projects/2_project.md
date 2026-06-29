@@ -31,7 +31,7 @@ based on Markov Chains.
 - **Project Number:** PAT1668223
 - **Project Duration:** 01.05.2024 – 30.04.2027
 - **Research Institution(s):** TU Wien (100%)
-- **Grant DOI:** https://doi.org/10.55776/PAT1668223
+- **Grant DOI:** [https://doi.org/10.55776/PAT1668223](https://doi.org/10.55776/PAT1668223)
 
 ---
 
