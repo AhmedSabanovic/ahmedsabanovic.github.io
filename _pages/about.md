@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:
+subtitle: PhD Candidate | Making AI Sustainable & Interpretable
 
 profile:
   align: right
