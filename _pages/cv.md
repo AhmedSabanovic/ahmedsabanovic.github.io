@@ -54,3 +54,21 @@ _06/2018 – 09/2019_
 
 - Provided professional simultaneous translation services from **English to Bosnian**
 - Worked with diverse clients under time-sensitive conditions
+
+---
+
+## Conference Presentations
+
+- **"INAR-VL: Input-Aware Routing for Edge–Cloud Vision–Language Inference"** — *EdgeSys Workshop, co-located with MobiSys 2026*, Cambridge, UK, June 2026.
+
+---
+
+## Skills
+
+**Programming Languages:** Python, R, SQL, JavaScript
+
+**Frameworks & Libraries:** PyTorch, scikit-learn, pandas, NumPy, matplotlib
+
+**Tools & Technologies:** Git, Docker, Linux/Unix, Jupyter, LaTeX
+
+**Domains:** Data Visualization, Multimodal Learning, Energy-Efficient ML, Edge Computing, Computational Sustainability
