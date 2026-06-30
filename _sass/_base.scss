@@ -430,7 +430,6 @@ ul.task-list input[type="checkbox"] {
 #light-toggle,
 #search-toggle {
   min-width: 44px;
-  min-height: 44px;
   padding: 0.35rem;
   border: 0;
   background-color: inherit;
@@ -451,7 +450,6 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-#light-toggle-system,
 #light-toggle-dark,
 #light-toggle-light {
   display: none;
@@ -459,7 +457,6 @@ ul.task-list input[type="checkbox"] {
   line-height: 1;
 }
 
-[data-theme-setting="system"] #light-toggle-system,
 [data-theme-setting="light"] #light-toggle-light,
 [data-theme-setting="dark"] #light-toggle-dark {
   display: inline-block !important;
