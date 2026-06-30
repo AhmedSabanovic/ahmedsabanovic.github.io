@@ -427,7 +427,41 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-#light-toggle,
+#light-toggle {
+  min-width: 44px;
+  border: 0;
+  background-color: inherit;
+  color: var(--global-text-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  touch-action: manipulation;
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+}
+
+// Theme toggle icons: hide all by default, show only the active one (light or dark)
+#light-toggle-dark,
+#light-toggle-light {
+  display: none;
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+[data-theme-setting="light"] #light-toggle-light,
+[data-theme-setting="dark"] #light-toggle-dark {
+  display: inline-block !important;
+}
+
+// Search toggle button
 #search-toggle {
   min-width: 44px;
   padding: 0.35rem;
@@ -448,18 +482,6 @@ ul.task-list input[type="checkbox"] {
     outline: 2px solid var(--global-theme-color);
     outline-offset: 2px;
   }
-}
-
-#light-toggle-dark,
-#light-toggle-light {
-  display: none;
-  font-size: 1.15rem;
-  line-height: 1;
-}
-
-[data-theme-setting="light"] #light-toggle-light,
-[data-theme-setting="dark"] #light-toggle-dark {
-  display: inline-block !important;
 }
 
 #search-toggle {
