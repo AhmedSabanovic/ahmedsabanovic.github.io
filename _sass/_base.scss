@@ -427,6 +427,7 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Theme toggle button - same structure as search toggle for consistent alignment
 #light-toggle {
   min-width: 44px;
   border: 0;
@@ -452,7 +453,7 @@ ul.task-list input[type="checkbox"] {
 #light-toggle-dark,
 #light-toggle-light {
   display: none;
-  font-size: 1.65rem;
+  font-size: 1.2rem;
   line-height: 1;
 }
 
@@ -482,9 +483,7 @@ ul.task-list input[type="checkbox"] {
     outline: 2px solid var(--global-theme-color);
     outline-offset: 2px;
   }
-}
 
-#search-toggle {
   .search-toggle-label {
     display: inline-flex;
     align-items: center;
