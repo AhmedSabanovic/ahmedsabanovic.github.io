@@ -217,8 +217,7 @@ body.sticky-bottom-footer {
   .navbar-nav {
     align-items: center;
 
-    li.nav-item,
-    li.toggle-container {
+    li.nav-item {
       display: flex;
       align-items: center;
     }
@@ -229,23 +228,23 @@ body.sticky-bottom-footer {
       align-items: center;
     }
 
-    // Icon buttons (search, theme) should also be centered
-    #light-toggle,
+    // Search toggle button - ensure proper alignment with text links
     #search-toggle {
-      display: flex;
+      display: inline-flex;
       align-items: center;
       justify-content: center;
-      height: 100%;
-      min-height: auto;
-      line-height: 1;
     }
 
-    // Small gap before toggle icons so they don't cling to last text link
-    li.toggle-container {
+    // Small gap before search icon so it doesn't cling to last text link
+    li.nav-item:has(#search-toggle) {
+      margin-left: 0.25rem;
+    }
+
+    // Small gap before theme icon so it doesn't cling to search button  
+    li.nav-item:has(#light-toggle) {
       margin-left: 0.25rem;
     }
   }
-}
 
 /******************************************************************************
  * Mobile improvements (@media max-width 767.98px is in _base.scss)
