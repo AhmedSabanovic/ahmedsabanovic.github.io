@@ -451,6 +451,20 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+#light-toggle-system,
+#light-toggle-dark,
+#light-toggle-light {
+  display: none;
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+[data-theme-setting="system"] #light-toggle-system,
+[data-theme-setting="light"] #light-toggle-light,
+[data-theme-setting="dark"] #light-toggle-dark {
+  display: inline-block !important;
+}
+
 #search-toggle {
   .search-toggle-label {
     display: inline-flex;
