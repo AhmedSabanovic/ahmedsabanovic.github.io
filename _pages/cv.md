@@ -59,7 +59,7 @@ _06/2018 – 09/2019_
 
 ## Conference Presentations
 
-- **"INAR-VL: Input-Aware Routing for Edge–Cloud Vision–Language Inference"** — *EdgeSys Workshop, co-located with MobiSys 2026*, Cambridge, UK, June 2026.
+- **"INAR-VL: Input-Aware Routing for Edge–Cloud Vision–Language Inference"** — _EdgeSys Workshop, co-located with MobiSys 2026_, Cambridge, UK, June 2026.
 
 ---
 
