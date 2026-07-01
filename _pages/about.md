@@ -34,8 +34,7 @@ I have a strong background in data science and machine learning, and I enjoy wor
 at the intersection of **research and applied systems**, particularly where visual
 analytics can support understanding and decision-making.
 
-Outside of academics, I enjoy cycling, playing basketball, and staying physically active.
----
+## Outside of academics, I enjoy cycling, playing basketball, and staying physically active.
 
 **Supervision**
 
