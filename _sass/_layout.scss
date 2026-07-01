@@ -240,6 +240,13 @@ body.sticky-bottom-footer {
       margin-left: 0.25rem;
     }
 
+    // Theme toggle button - ensure proper alignment with text links (same as search)
+    #light-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
     // Small gap before theme icon so it doesn't cling to search button
     li.nav-item:has(#light-toggle) {
       margin-left: 0.25rem;
