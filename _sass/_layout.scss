@@ -255,15 +255,17 @@ body.sticky-bottom-footer {
 
   /******************************************************************************
    * Mobile improvements (@media max-width 767.98px is in _base.scss)
-   * Additional mobile tweaks for layout elements
+   * Additional mobile tweaks for layout elements - optimized landing page
    ******************************************************************************/
 
   @media (max-width: 767.98px) {
-    // Profile image: smaller on mobile so text has room
+    // Profile image: significantly smaller on mobile, centered at top of content
     .profile {
       img {
-        max-width: 180px;
+        max-width: 130px;
         margin: 0 auto;
+        border-radius: 50%;
+        box-shadow: 0 2px 12px rgba($teal-color, 0.15);
       }
 
       &.float-right,
@@ -272,22 +274,43 @@ body.sticky-bottom-footer {
         margin-left: auto !important;
         margin-right: auto !important;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+
+      .more-info {
+        font-size: 0.78rem;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 0.5rem;
       }
     }
 
     // Reduce heading sizes on small screens
     .post-header .post-title {
-      font-size: 1.5rem;
+      font-size: 1.35rem;
+      letter-spacing: -0.3px;
+      line-height: 1.3;
     }
 
     .post article h2 {
-      font-size: 1.25rem;
+      font-size: 1.15rem;
+      margin-bottom: 0.8rem;
+      padding-bottom: 0.3rem;
+
+      &::after {
+        width: 2rem;
+        height: 2px;
+        margin-top: 0.25rem;
+      }
     }
 
     // Tags and badges: slightly tighter spacing on mobile
     .research-tags,
     .skills-row {
-      gap: 0.35rem;
+      gap: 0.3rem;
+      justify-content: center;
     }
 
     // Social icons: a bit smaller on phone
@@ -308,7 +331,21 @@ body.sticky-bottom-footer {
     // News table: ensure dates don't overflow
     .news table td,
     .news table th {
-      font-size: 0.85rem;
+      font-size: 0.82rem;
+    }
+
+    // Compact body content spacing on mobile
+    body {
+      padding-bottom: 55px;
+      padding-top: 3px;
+    }
+
+    body.fixed-top-nav {
+      padding-top: 48px;
+    }
+
+    .container.mt-5 {
+      margin-top: 1.2rem !important;
     }
   }
 }
