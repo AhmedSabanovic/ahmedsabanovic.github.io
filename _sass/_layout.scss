@@ -212,7 +212,7 @@ body.sticky-bottom-footer {
     font-weight: 600;
     color: var(--global-theme-color) !important;
   }
-  
+
   // Fix alignment: make navbar items use flexbox so icons and text are vertically centered
   .navbar-nav {
     align-items: center;
@@ -240,68 +240,69 @@ body.sticky-bottom-footer {
       margin-left: 0.25rem;
     }
 
-    // Small gap before theme icon so it doesn't cling to search button  
+    // Small gap before theme icon so it doesn't cling to search button
     li.nav-item:has(#light-toggle) {
       margin-left: 0.25rem;
     }
   }
 
-/******************************************************************************
- * Mobile improvements (@media max-width 767.98px is in _base.scss)
- * Additional mobile tweaks for layout elements
- ******************************************************************************/
+  /******************************************************************************
+   * Mobile improvements (@media max-width 767.98px is in _base.scss)
+   * Additional mobile tweaks for layout elements
+   ******************************************************************************/
 
-@media (max-width: 767.98px) {
-  // Profile image: smaller on mobile so text has room
-  .profile {
-    img {
-      max-width: 180px;
-      margin: 0 auto;
+  @media (max-width: 767.98px) {
+    // Profile image: smaller on mobile so text has room
+    .profile {
+      img {
+        max-width: 180px;
+        margin: 0 auto;
+      }
+
+      &.float-right,
+      &.float-left {
+        float: none !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+      }
     }
 
-    &.float-right,
-    &.float-left {
-      float: none !important;
-      margin-left: auto !important;
-      margin-right: auto !important;
-      text-align: center;
+    // Reduce heading sizes on small screens
+    .post-header .post-title {
+      font-size: 1.5rem;
     }
-  }
 
-  // Reduce heading sizes on small screens
-  .post-header .post-title {
-    font-size: 1.5rem;
-  }
+    .post article h2 {
+      font-size: 1.25rem;
+    }
 
-  .post article h2 {
-    font-size: 1.25rem;
-  }
+    // Tags and badges: slightly tighter spacing on mobile
+    .research-tags,
+    .skills-row {
+      gap: 0.35rem;
+    }
 
-  // Tags and badges: slightly tighter spacing on mobile
-  .research-tags,
-  .skills-row {
-    gap: 0.35rem;
-  }
+    // Social icons: a bit smaller on phone
+    .social .contact-icons {
+      font-size: 1.2rem;
+    }
 
-  // Social icons: a bit smaller on phone
-  .social .contact-icons {
-    font-size: 1.2rem;
-  }
+    // Project cards: full width, single column feels better
+    .projects .card .card-img-top {
+      aspect-ratio: 4 / 3;
+    }
 
-  // Project cards: full width, single column feels better
-  .projects .card .card-img-top {
-    aspect-ratio: 4 / 3;
-  }
+    // CV cards: reduce padding on mobile
+    .cv .card {
+      padding: 0.75rem !important;
+    }
 
-  // CV cards: reduce padding on mobile
-  .cv .card {
-    padding: 0.75rem !important;
-  }
-
-  // News table: ensure dates don't overflow
-  .news table td,
-  .news table th {
-    font-size: 0.85rem;
+    // News table: ensure dates don't overflow
+    .news table td,
+    .news table th {
+      font-size: 0.85rem;
+    }
   }
 }
 
