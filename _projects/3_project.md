@@ -2,6 +2,8 @@
 layout: page
 title: AI-supported Holographic Environmental Water Monitoring
 description: ESR24-053 project on AI-assisted holographic microscopy for environmental water monitoring
+img: assets/img/WWTF.png
+img_fit: contain
 importance: 3
 category: research
 related_publications: false
