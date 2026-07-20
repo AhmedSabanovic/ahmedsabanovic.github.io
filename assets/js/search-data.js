@@ -61,6 +61,11 @@ ninja.data = [{
           description: "Geographically distributed probabilistic operating systems for edge-native code offloading",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
+            },},{id: "projects-ai-supported-holographic-environmental-water-monitoring",
+          title: 'AI-supported Holographic Environmental Water Monitoring',
+          description: "ESR24-053 project on AI-assisted holographic microscopy for environmental water monitoring",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project.html";
             },},{
         id: 'social-email',
         title: 'email',
