@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Themis
+title: Themis - Trustworthy and Sustainable Code Offloading
 description: Geographically distributed probabilistic operating systems for edge-native code offloading
 img: assets/img/FWF.png
 img_fit: contain
