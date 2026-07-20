@@ -50,8 +50,3 @@ based on Markov Chains.
 - Earth science
 
 ---
-
-## Official Sources
-
-- **Grant DOI page:** [https://doi.org/10.55776/PAT1668223](https://doi.org/10.55776/PAT1668223)
-- **FWF logo image source:** [https://www.fwf.ac.at/fileadmin/Website/Logos/FWF_Logo.png](https://www.fwf.ac.at/fileadmin/Website/Logos/FWF_Logo.png)
