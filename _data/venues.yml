@@ -8,5 +8,9 @@
 "Vision":
   color: "#009f36"
 
-"mastersthesis":
+"MobiSys":
+  url: https://www.sigmobile.org/mobisys/
+  color: "#1f6feb"
+
+"MSc Thesis":
   color: "#003366"
